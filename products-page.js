@@ -17,7 +17,7 @@ fetch("products.json")
                 <i class="bi bi-info-circle"></i> Item Details
               </a>
               <button class="btn btn-danger btn-sm" 
-                onclick="addToCart(${item.id}, '${item.name}', ${item.price}, '${item.img}')">
+                onclick="addToCart(${item.id}, '${item.name}', ${item.price}, '${item.images}')">
                 <i class="bi bi-cart"></i> Add TO Cart
               </button>
             </div>
