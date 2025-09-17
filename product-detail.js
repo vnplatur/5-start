@@ -18,16 +18,16 @@ fetch("products.json")
         <!-- Multiple Images (using same img for demo, replace with array later) -->
         <div class="row g-2">
           <div class="col-12">
-            <img src="${product.images[1]}" class="img-fluid rounded product-img" alt="${product.name}">
+            <img src="${product.images}" class="img-fluid rounded product-img" alt="${product.name}">
           </div>
           <div class="col-4">
-            <img src="${product.images[2]}" class="img-fluid rounded" alt="thumb">
+            <img src="${product.images}" class="img-fluid rounded" alt="thumb">
           </div>
           <div class="col-4">
-            <img src="${product.images[3]}" class="img-fluid rounded" alt="thumb">
+            <img src="${product.images}" class="img-fluid rounded" alt="thumb">
           </div>
           <div class="col-4">
-            <img src="${product.images[1]}" class="img-fluid rounded" alt="thumb">
+            <img src="${product.images}" class="img-fluid rounded" alt="thumb">
           </div>
         </div>
       </div>

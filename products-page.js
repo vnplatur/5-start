@@ -7,7 +7,7 @@ fetch("products.json")
     productList.innerHTML = products.map(item => `
       <div class="col-md-3 mb-4">
         <div class="card shadow-sm h-100">
-          <img src="${item.img}" class="card-img-top" alt="${item.name}">
+          <img src="${item.images}" class="card-img-top" alt="${item.name}">
           <div class="card-body text-center">
             <h5 class="card-title">${item.name}</h5>
             <p class="card-text">${item.desc}</p>

@@ -9,7 +9,7 @@ fetch("products.json")
     productList.innerHTML = featured.map(item => `
       <div class="col-md-3 mb-4">
         <div class="card shadow-sm h-100">
-          <img src="${item.img}" class="card-img-top" alt="${item.name}" style="height:200px; object-fit:cover;">
+          <img src="${item.images}" class="card-img-top" alt="${item.name}" style="height:200px; object-fit:cover;">
           <div class="card-body text-center">
             <h5 class="card-title">${item.name}</h5>
             <p class="card-text">${item.desc}</p>
