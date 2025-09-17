@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Burger",
+    "price": 250,
+    "description": "Juicy beef patty with fresh lettuce, tomato, and cheese.",
+    "manager": "John Doe",
+    "images": [
+      "https://picsum.photos/seed/burger1/400/300",
+      "https://picsum.photos/seed/burger2/400/300",
+      "https://picsum.photos/seed/burger3/400/300"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Veggie Pizza",
+    "price": 300,
+    "description": "Loaded with fresh vegetables and mozzarella cheese.",
+    "manager": "Sarah Smith",
+    "images": [
+      "https://picsum.photos/seed/pizza1/400/300",
+      "https://picsum.photos/seed/pizza2/400/300",
+      "https://picsum.photos/seed/pizza3/400/300"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pasta Alfredo",
+    "price": 280,
+    "description": "Creamy alfredo sauce with fettuccine pasta.",
+    "manager": "Emily Johnson",
+    "images": [
+      "https://picsum.photos/seed/pasta1/400/300",
+      "https://picsum.photos/seed/pasta2/400/300",
+      "https://picsum.photos/seed/pasta3/400/300"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chicken Biryani",
+    "price": 350,
+    "description": "Aromatic rice with tender chicken and spices.",
+    "manager": "Amit Patel",
+    "images": [
+      "https://picsum.photos/seed/biryani1/400/300",
+      "https://picsum.photos/seed/biryani2/400/300",
+      "https://picsum.photos/seed/biryani3/400/300"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Caesar Salad",
+    "price": 200,
+    "description": "Crisp lettuce with Caesar dressing and croutons.",
+    "manager": "Linda Green",
+    "images": [
+      "https://picsum.photos/seed/salad1/400/300",
+      "https://picsum.photos/seed/salad2/400/300",
+      "https://picsum.photos/seed/salad3/400/300"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Grilled Sandwich",
+    "price": 180,
+    "description": "Cheese-filled sandwich with grilled perfection.",
+    "manager": "Michael Lee",
+    "images": [
+      "https://picsum.photos/seed/sandwich1/400/300",
+      "https://picsum.photos/seed/sandwich2/400/300",
+      "https://picsum.photos/seed/sandwich3/400/300"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "French Fries",
+    "price": 120,
+    "description": "Golden crispy fries with seasoning.",
+    "manager": "David Clark",
+    "images": [
+      "https://picsum.photos/seed/fries1/400/300",
+      "https://picsum.photos/seed/fries2/400/300",
+      "https://picsum.photos/seed/fries3/400/300"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tandoori Chicken",
+    "price": 400,
+    "description": "Spicy chicken roasted in tandoor with smoky flavor.",
+    "manager": "Rajesh Kumar",
+    "images": [
+      "https://picsum.photos/seed/tandoori1/400/300",
+      "https://picsum.photos/seed/tandoori2/400/300",
+      "https://picsum.photos/seed/tandoori3/400/300"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cheese Momos",
+    "price": 150,
+    "description": "Steamed dumplings filled with cheese and spices.",
+    "manager": "Anita Sharma",
+    "images": [
+      "https://picsum.photos/seed/momo1/400/300",
+      "https://picsum.photos/seed/momo2/400/300",
+      "https://picsum.photos/seed/momo3/400/300"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Chocolate Cake",
+    "price": 220,
+    "description": "Moist chocolate sponge with rich frosting.",
+    "manager": "Sophia White",
+    "images": [
+      "https://picsum.photos/seed/cake1/400/300",
+      "https://picsum.photos/seed/cake2/400/300",
+      "https://picsum.photos/seed/cake3/400/300"
+    ]
+  }
+]
