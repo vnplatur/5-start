@@ -24,10 +24,12 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     }
     .team-card img {
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-      height: 200px;
-      object-fit: cover;
+      width: 150px;        /* same width and height */
+  height: 150px;
+  object-fit: cover;   /* crop/fit image without distortion */
+  border-radius: 50%;  /* makes it circular */
+  display: block;      /* to allow centering */
+  margin: 0 auto;  
     }
     .team-card .card-body {
       text-align: center;
@@ -59,5 +61,33 @@
   </footer>
 
   <script src="team.js"></script>
+  <script>
+      // Load Navbar
+      fetch("navbar.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+          updateNavbar();
+        });
+
+      function updateNavbar() {
+        const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+        const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+        const authLink = document.getElementById("authLink");
+        if (isLoggedIn && currentUser) {
+          authLink.innerHTML = `<a class="nav-link" href="#" onclick="logout()">Logout (${currentUser.name})</a>`;
+        } else {
+          authLink.innerHTML = `<a class="nav-link" href="login.html">Login</a>`;
+        }
+      }
+      function logout() {
+        localStorage.removeItem("isLoggedIn");
+        localStorage.removeItem("currentUser");
+        alert("You have logged out!");
+        window.location.href = "login.html";
+      }
+
+      // Load ALL Products from products.json
+    </script>
 </body>
 </html>

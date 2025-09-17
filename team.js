@@ -1,21 +1,33 @@
 const team = [
-  { name: "Mansi", role: "Website", img: "https://i.pravatar.cc/200?img=1" },
-  { name: "Gayatri", role: "Website / Graphic / Marketing", img: "https://i.pravatar.cc/200?img=2" },
-  { name: "Tanmay", role: "Raw Material / Pricing", img: "https://i.pravatar.cc/200?img=3" },
-  { name: "Ayush Dubey", role: "Raw Material / Pricing", img: "https://i.pravatar.cc/200?img=4" },
-  { name: "Diya", role: "Packaging", img: "https://i.pravatar.cc/200?img=5" },
-  { name: "Shreya", role: "Packaging", img: "https://i.pravatar.cc/200?img=6" },
-  { name: "Harshal", role: "Marketing / Labour", img: "https://i.pravatar.cc/200?img=7" },
-  { name: "Nandini", role: "Pricing", img: "https://i.pravatar.cc/200?img=8" },
-  { name: "Harshit", role: "Logistics", img: "https://i.pravatar.cc/200?img=9" }
+  {
+    name: "Renuka Panchakshare",
+    role: "WebSite",
+    img: "./images/woman.png!sw800",
+  },
+  {
+    name: "Nandini Sharma",
+    role: "Marketing",
+    img: "./images/woman.png!sw800",
+  },
+  {
+    name: "Mansi Tikariya",
+    role: "Logistics",
+    img: "./images/woman.png!sw800",
+  },
+  { name: "Purva Dalal", role: "Operations", img: "./images/woman.png!sw800" },
+  { name: "Atharv Makhi", role: "Finance", img: "./images/man.png" },
+  { name: "Shreya Chavan", role: "Design", img: "./images/woman.png!sw800" },
+  { name: "Ishika Kulkarni", role: "Content", img: "./images/woman.png!sw800" },
 ];
 
 const container = document.getElementById("team-members");
 
-container.innerHTML = team.map(member => `
+container.innerHTML = team
+  .map(
+    (member) => `
   <div class="col-md-4 mb-4">
     <div class="card team-card shadow-sm h-100">
-      <img src="${member.img}" class="card-img-top" alt="${member.name}">
+      <img src="${member.img}" class="card-img-top rounded-circle"  alt="${member.name}">
       <div class="card-body">
         <h5 class="card-title">${member.name}</h5>
         <p class="card-text">${member.role}</p>
@@ -30,4 +42,6 @@ container.innerHTML = team.map(member => `
       </div>
     </div>
   </div>
-`).join("");
+`
+  )
+  .join("");

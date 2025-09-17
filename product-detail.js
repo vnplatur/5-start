@@ -44,14 +44,14 @@ fetch("products.json")
           <button class="btn btn-danger" onclick="addToCart(${product.id}, '${product.name}', ${product.price}, '${product.img}')">
             <i class="bi bi-cart"></i> Add to Cart
           </button>
-          <a href="https://wa.me/911234567890?text=Hi,%20I'm%20interested%20in%20${encodeURIComponent(product.name)}" 
+          <a href="https://wa.me/8177800285?text=Hi,%20I'm%20interested%20in%20${encodeURIComponent(product.name)}" 
              target="_blank" class="btn btn-success">
             <i class="bi bi-whatsapp"></i> WhatsApp
           </a>
-          <a href="tel:+911234567890" class="btn btn-warning text-white">
+          <a href="tel:+918177800285" class="btn btn-warning text-white">
             <i class="bi bi-telephone"></i> Call
           </a>
-          <a href="mailto:info@yourcompany.com?subject=Inquiry about ${encodeURIComponent(product.name)}" 
+          <a href="mailto:Renuka.p24-26@iiebm.com?subject=Inquiry about ${encodeURIComponent(product.name)}" 
              class="btn btn-info text-white">
             <i class="bi bi-envelope"></i> Email
           </a>

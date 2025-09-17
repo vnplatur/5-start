@@ -30,5 +30,34 @@
   <footer class="bg-dark text-light py-3 text-center">
     <p class="mb-0">&copy; 2025 Foodies Hub. All Rights Reserved.</p>
   </footer>
+
+  <script>
+      // Load Navbar
+      fetch("navbar.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+          updateNavbar();
+        });
+
+      function updateNavbar() {
+        const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+        const currentUser = JSON.parse(localStorage.getItem("currentUser"));
+        const authLink = document.getElementById("authLink");
+        if (isLoggedIn && currentUser) {
+          authLink.innerHTML = `<a class="nav-link" href="#" onclick="logout()">Logout (${currentUser.name})</a>`;
+        } else {
+          authLink.innerHTML = `<a class="nav-link" href="login.html">Login</a>`;
+        }
+      }
+      function logout() {
+        localStorage.removeItem("isLoggedIn");
+        localStorage.removeItem("currentUser");
+        alert("You have logged out!");
+        window.location.href = "login.html";
+      }
+
+      // Load ALL Products from products.json
+    </script>
 </body>
 </html>
