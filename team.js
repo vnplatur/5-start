@@ -10,13 +10,13 @@ const team = [
     img: "./images/woman.png!sw800",
   },
   {
-    name: "Mansi Tikariya",
+    name: "Mansi Tikariha",
     role: "Logistics",
     img: "./images/woman.png!sw800",
   },
   { name: "Purva Dalal", role: "Operations", img: "./images/woman.png!sw800" },
-  { name: "Atharv Makhi", role: "Finance", img: "./images/man.png" },
-  { name: "Shreya Chavan", role: "Design", img: "./images/woman.png!sw800" },
+  { name: "Atharva Makhi", role: "Finance", img: "./images/man.png" },
+  { name: "Shriya Chavan", role: "Design", img: "./images/woman.png!sw800" },
   { name: "Ishika Kulkarni", role: "Content", img: "./images/woman.png!sw800" },
 ];
 
@@ -27,7 +27,9 @@ container.innerHTML = team
     (member) => `
   <div class="col-md-4 mb-4">
     <div class="card team-card shadow-sm h-100">
-      <img src="${member.img}" class="card-img-top rounded-circle"  alt="${member.name}">
+      <img src="${member.img}" class="card-img-top rounded-circle"  alt="${
+      member.name
+    }">
       <div class="card-body">
         <h5 class="card-title">${member.name}</h5>
         <p class="card-text">${member.role}</p>
