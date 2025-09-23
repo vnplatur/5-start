@@ -14,7 +14,6 @@ const team = [
     role: "Logistics",
     img: "./images/woman.png!sw800",
   },
-  { name: "Purva Dalal", role: "Operations", img: "./images/woman.png!sw800" },
   { name: "Atharva Makhi", role: "Finance", img: "./images/man.png" },
   { name: "Shriya Chavan", role: "Design", img: "./images/woman.png!sw800" },
   { name: "Ishika Kulkarni", role: "Content", img: "./images/woman.png!sw800" },
