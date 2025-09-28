@@ -9,10 +9,10 @@
   },
   { 
     "id": 2, 
-    "name": "Bakarwadi", 
+    "name": "Kothimber wadi", 
     "state": "Maharashtra", 
     "desc": "Spicy, tangy, and crispy spiral snack from Maharashtra.", 
-    "images": "https://media.istockphoto.com/id/1143086730/photo/bhakarwadi-snacks.webp?a=1&b=1&s=612x612&w=0&k=20&c=Q5SbuMwf3uOXQiQg-dD9VlFzNiMCx1oH-8ytReNX5MI=", 
+    "images": "./images/kothimber_wadi.jpg", 
     "price": 150 
   },
 
